@@ -1,0 +1,27 @@
+{
+  "name": "eunwoo-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "tts:test": "node --env-file=.env.local scripts/tts-test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "typescript": "5"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}
